@@ -16,3 +16,10 @@
 -keep class com.android.dialer.lookup.ExtendedLookupDirectories { *; }
 
 -verbose
+
+-dontwarn org.apache.http.**
+-dontwarn com.android.volley.toolbox.**
+-dontwarn android.net.http.**
+-dontwarn android.net.http.**
+-dontwarn java.nio.file.**
+-dontwarn org.codehaus.mojo.**
