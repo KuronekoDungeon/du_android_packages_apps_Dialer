@@ -310,6 +310,11 @@
                   android:screenOrientation="nosensor" >
         </activity>
 
+        <activity
+            android:name=".MiniMarkActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/MiniMarkActivityStyle" />
+
         <!-- BroadcastReceiver for receiving Intents from Notification mechanism. -->
         <receiver android:name="com.android.incallui.NotificationBroadcastReceiver"
                   android:exported="false" />
@@ -329,3 +334,4 @@
 
     </application>
 </manifest>
+
